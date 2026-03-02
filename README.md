@@ -92,7 +92,7 @@ These scenarios can be quantified by combining: current revenue by segment, segm
 ### Data preparation decisions
 
 - **Source data**  
-  - Transactions from the Online Retail dataset, using the CSV export `datasource/raw/Online_Retail.csv`.
+  - Transactions from the Online Retail dataset, using the CSV export `Chen, D. (2015). Online Retail [Dataset]. UCI Machine Learning Repository. [https://doi.org/10.24432/C5BW33]`.
 
 - **Customer identification**  
   - **Only rows with non‑null `CustomerID`** were kept, so each transaction can be attributed to an individual customer.  
@@ -165,4 +165,3 @@ These scenarios can be quantified by combining: current revenue by segment, segm
   - Profitability or margin is not modeled explicitly; all monetary metrics reflect revenue, not contribution margin.
 
 Together, these decisions and checks ensure the segmentation is **analytically sound**, **transparent**, and **ready to be integrated** into CRM and decision‑making workflows.
-
