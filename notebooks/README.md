@@ -174,5 +174,38 @@ The objective of this work is to segment customers based on their purchasing beh
     - Change in AOV and purchase frequency post-campaign.
     - Engagement with recommendation and threshold campaigns.
 
+---
 
+## 5. KPIs and Monitoring Framework
+
+### 5.1 Core Segment-Level KPIs
+
+- **Size & composition**
+  - Number of customers in each segment.
+  - % of total customers and % of total revenue by segment.
+- **Value & engagement**
+  - ARPU (average revenue per user) by segment.
+  - Average order value and orders per customer.
+  - Engagement metrics: open/click rates, sessions, campaign participation.
+- **Risk & opportunity**
+  - Churn or inactivity rate (no purchase over a defined period).
+  - Upgrade/downgrade flows between segments (e.g., New → Loyal, Loyal → At-Risk).
+  - Approximate CLV by segment (where feasible).
+
+### 5.2 Monitoring Cadence
+
+- **Monthly**
+  - Segment sizes and revenue share.
+  - ARPU and AOV per segment.
+  - Net movement between key segments (New → Loyal, Loyal → At-Risk).
+- **Quarterly**
+  - Churn rates by segment.
+  - CLV by segment and changes over time.
+  - Cohort-level retention curves by initial segment.
+
+### 5.3 Example Alert Thresholds
+
+- At-Risk churn rate increases by >5 percentage points vs. previous quarter.
+- Number of Champions decreases by >10% quarter-on-quarter.
+- > 50% of the base concentrated in Need Attention / Occasional.
 
